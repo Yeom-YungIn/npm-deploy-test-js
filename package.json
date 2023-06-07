@@ -2,7 +2,7 @@
   "name": "npm-deploy-test-js",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "npm test"
   },
@@ -10,5 +10,8 @@
     "sheet"
   ],
   "author": "0in",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
 }
